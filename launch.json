@@ -1,0 +1,17 @@
+{
+  "kind": "evm_project",
+  "token": {
+    "contract": "LaunchToken",
+    "name": "Extremely Long Dog",
+    "symbol": "XLONGDOG",
+    "decimals": 18
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0x0000000000000000000000000000000000000000",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "notes": "Extremely Long Dog ($XLONGDOG): the longest dog on Robinhood Chain. A community meme token for the extremely long dog from @taylor_'s viral post. Unofficial fan meme, not affiliated with or endorsed by the post's author. Website: https://midaswhale.wtf/xlongdog | Source post: https://x.com/taylor_/status/2120975103148359750. Token-only launch on Robinhood Chain (4663). src/LaunchToken.sol:LaunchToken takes no constructor arguments and mints 1,000,000,000 tokens once to the deploying factory. Transfers are plain, with no tax, further minting, owner privileges over holders, or trading limits. No application contracts, custom hook, or initialization calls. The factory supplies the LP, MerkleDistributor, and initialization-only PoolInitializationGuard. Required launch economics.poolBps=9000 is configured outside this manifest: all of the requester's 90% seeds the pool and the swarm receives 10%. The pool fee is 1.25%. The deployer derives the opening price from the policy's 10 ETH opening market cap and the deployed token address; initialPrice is the prescribed manifest value. metadata/token.json contains the official branding and embeds assets/logo.png, the opaque 512x512 PNG cropped from https://pbs.twimg.com/media/HW83ZHFWEAAKK_C.jpg. Website/external_url: https://midaswhale.wtf/xlongdog. X: https://x.com/taylor_/status/2120975103148359750 is the source post only, not an official account of @taylor_. The token has no contractURI."
+}
